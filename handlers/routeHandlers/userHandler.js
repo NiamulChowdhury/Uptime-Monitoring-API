@@ -1,5 +1,4 @@
 /* eslint-disable no-underscore-dangle */
-/* eslint-disable prettier/prettier */
 /* eslint-disable operator-linebreak */
 /*
  * Title: User Handler
@@ -104,7 +103,7 @@ handler._users.get = (requestProperties, callback) => {
     if (phone) {
         // verify token
         const token =
-            typeof (requestProperties.headersObject.token) === 'string'
+            typeof requestProperties.headersObject.token === 'string'
                 ? requestProperties.headersObject.token
                 : false;
 
@@ -123,9 +122,9 @@ handler._users.get = (requestProperties, callback) => {
                     }
                 });
             } else {
-                    callback(403, {
-                        error: 'Authentication Failed!',
-                    });
+                callback(403, {
+                    error: 'Authentication Failed!',
+                });
             }
         });
     } else {
@@ -165,7 +164,7 @@ handler._users.put = (requestProperties, callback) => {
         if (firstName || lastName || password) {
             // verify token
             const token =
-                typeof (requestProperties.headersObject.token) === 'string'
+                typeof requestProperties.headersObject.token === 'string'
                     ? requestProperties.headersObject.token
                     : false;
 
