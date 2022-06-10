@@ -4,7 +4,7 @@
  * Title: Token Handler
  * Description: Handler to handle token related routes
  * Author: Niamul Chowdhury
- * Date: 08/06/2022
+ * Date: 08/06/2022 (DD/MM/YYYY)
  *
  */
 // dependencies

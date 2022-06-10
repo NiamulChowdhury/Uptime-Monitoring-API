@@ -4,6 +4,8 @@
   "protocol": "https",
   "url": "google.com",
   "method": "GET",
-  "successCodes": [200, 201],
-  "timeoutSeconds": 2
+  "successCodes": [200, 201, 301],
+  "timeoutSeconds": 2,
+  "state": "up",
+  "lastChecked": 1654885475654
 }

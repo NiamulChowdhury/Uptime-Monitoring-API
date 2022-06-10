@@ -4,7 +4,7 @@
  * Title: User Handler
  * Description: Handler to handle user related routes
  * Author: Niamul Chowdhury
- * Date: 05/06/2022
+ * Date: 05/06/2022 (DD/MM/YYYY)
  *
  */
 // dependencies

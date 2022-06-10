@@ -2,7 +2,7 @@
  * Title: Environments
  * Description: Handle all environment related things
  * Author: Niamul Chowdhury
- * Date: 04/06/2022
+ * Date: 04/06/2022 (DD/MM/YYYY)
  *
  */
 
@@ -16,6 +16,11 @@ environments.staging = {
     envName: 'staging',
     secretKey: 'asfsadgargsdfasdfasdf',
     maxChecks: 5,
+    /* twilio: {
+        fromPhone: '',
+        accountSid: '',
+        authToken: '',
+    }, */
 };
 
 environments.production = {
@@ -23,6 +28,11 @@ environments.production = {
     envName: 'production',
     secretKey: 'asdfsadfgasfawerfsdg',
     maxChecks: 5,
+    /* twilio: {
+        fromPhone: '',
+        accountSid: '',
+        authToken: '',
+    }, */
 };
 
 // determine which encironment was passed
